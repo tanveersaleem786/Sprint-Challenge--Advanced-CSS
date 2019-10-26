@@ -1,3 +1,5 @@
+# Tanveer Saleem
+
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored advanced CSS techniques using Responsive Design and Preprocessing. During this Sprint, you studied how to use the viewport meta tag, media queries, setting up a preprocessor, and advanced use of preprocessing techniques. In your challenge this week, you will demonstrate proficiency by updating a website that is missing content as well as adding mobile styling.
@@ -34,13 +36,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    Adaptive website:  
+    -----------------          
+    Layout widths are still hard coded at each media query.
+    Quick deployment for specific devices.
+
+    Fully responsive website:
+    -------------------------
+    Responsive units are used throughout the site.
+    Site accommodates thousands of devices and takes longer to build.
+
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    In case of mobile first we design our site first for mobile and we use min-width.
+    In case of desktop first we design our site first for desktop and we use max-width.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    Usually default font-size of the browser is 16px. Setting font-size: 100% will make 1rem = 16px. But it will make calculations a little difficult. A better way is to set font-size: 62.5%. Because 62.5% of 16px is 10px. Which makes 1rem = 10px.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing is simply a more robust syntax for CSS written in a different language. That language is then compiled into normal CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    Nesting and variables are my favrite. Mixins give me more trouble.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
